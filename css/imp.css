@@ -1,22 +1,27 @@
 /* Remove Chrome Input Field's Unwanted Yellow Background Color */
-input:-webkit-autofill, 
-input:-webkit-autofill:hover, 
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
 input:-webkit-autofill:focus {
     -webkit-box-shadow: 0 0 0px 1000px white inset !important;
 }
-::-webkit-input-placeholder { / Chrome/Opera/Safari /
-    color: #000 !important;
+
+::-webkit-input-placeholder {
+    / Chrome/Opera/Safari / color: #000 !important;
 }
-::-moz-placeholder { / Firefox 19+ /
-    color: #000 !important;
+
+::-moz-placeholder {
+    / Firefox 19+/ color: #000 !important;
 }
-::-ms-input-placeholder { / IE 10+ /
-    color: #000 !important;
+
+::-ms-input-placeholder {
+    / IE 10+/ color: #000 !important;
 }
-::-moz-placeholder { / Firefox 18- /
-    color: #000 !important;
+
+::-moz-placeholder {
+    / Firefox 18- / color: #000 !important;
 }
-.tp-bannertimer{
+
+.tp-bannertimer {
     display: none !important;
 }
 
@@ -24,26 +29,35 @@ input:-webkit-autofill:focus {
 .single-service-sidebar .sidebar-appoinment .appoinment-form .input-box input::-webkit-input-placeholder {
     color: #cccccc;
 }
+
 .single-service-sidebar .sidebar-appoinment .appoinment-form .input-box input:-moz-placeholder {
     color: #cccccc;
 }
+
 .single-service-sidebar .sidebar-appoinment .appoinment-form .input-box input::-moz-placeholder {
     color: #cccccc;
 }
+
 .single-service-sidebar .sidebar-appoinment .appoinment-form .input-box input:-ms-input-placeholder {
     color: #cccccc;
 }
+
 .consultation-area .consultation-form textarea::-webkit-input-placeholder {
     color: #bababa;
 }
-.consultation-area .consultation-form textarea:-moz-placeholder { /* Firefox 18- */
-    color: #bababa;  
+
+.consultation-area .consultation-form textarea:-moz-placeholder {
+    /* Firefox 18- */
+    color: #bababa;
 }
-.consultation-area .consultation-form textarea::-moz-placeholder {  /* Firefox 19+ */
-    color: #bababa;  
+
+.consultation-area .consultation-form textarea::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #bababa;
 }
+
 .consultation-area .consultation-form textarea:-ms-input-placeholder {
-    color: #bababa;  
+    color: #bababa;
 }
 
 
@@ -51,12 +65,14 @@ input:-webkit-autofill:focus {
 .ui-state-default {
     width: auto !important;
 }
+
 .ui-selectmenu-open .ui-widget-content {
     border: 1px solid #1d1d1d !important;
     background: #ffffff !important;
     color: #222222 !important;
     border-radius: 0 !important;
 }
+
 /* Jquery ui select hover bg css */
 .ui-selectmenu-open .ui-widget-content .ui-state-focus {
     border: 1px solid #1d1d1d !important;
@@ -65,6 +81,7 @@ input:-webkit-autofill:focus {
     color: #ffffff !important;
     font-size: 13px !important;
 }
+
 /* Jquery ui select hover some change css */
 .ui-selectmenu-open .ui-menu .ui-menu-item {
     border: 1px solid transparent !important;
@@ -75,6 +92,7 @@ input:-webkit-autofill:focus {
     font-size: 13px !important;
     text-transform: none !important;
 }
+
 .ui-selectmenu-menu .ui-menu {
     padding-bottom: 0px !important;
 }
@@ -101,12 +119,15 @@ input:-webkit-autofill:focus {
     height: 60px !important;
     font-family: 'Roboto', sans-serif;
 }
-.consultation-form .ui-selectmenu-button{
-    border-radius: 5px !important;    
-}                                                                                                                
-.consultation-form .ui-selectmenu-button:focus{
+
+.consultation-form .ui-selectmenu-button {
+    border-radius: 5px !important;
+}
+
+.consultation-form .ui-selectmenu-button:focus {
     outline: none;
 }
+
 .consultation-form .ui-selectmenu-button span.ui-selectmenu-text {
     display: block;
     line-height: 18px;
@@ -114,6 +135,7 @@ input:-webkit-autofill:focus {
     text-align: left;
     padding: 21px 20px 19px;
 }
+
 /* arrow button css */
 .consultation-form .ui-selectmenu-button span.ui-icon {
     display: block;
@@ -128,6 +150,7 @@ input:-webkit-autofill:focus {
     background-image: none;
     margin: 0;
 }
+
 .consultation-form .ui-selectmenu-button span.ui-icon::before {
     position: absolute;
     top: 16px;
@@ -154,7 +177,7 @@ input:-webkit-autofill:focus {
     height: 60px !important;
     border-radius: 0px !important;
     border: 1px solid #ededed;
-    color: #828282;
+    color: #000;
     font-size: 15px;
     font-weight: 400;
     padding-left: 50px;
@@ -162,10 +185,12 @@ input:-webkit-autofill:focus {
     margin-bottom: 30px;
     text-transform: capitalize;
     font-family: 'Rubik', sans-serif;
-}                                                                                                               
-.contact-form form .input-box .ui-selectmenu-button:focus{
+}
+
+.contact-form form .input-box .ui-selectmenu-button:focus {
     outline: none;
 }
+
 .contact-form form .input-box .ui-selectmenu-button span.ui-selectmenu-text {
     display: block;
     line-height: 14px;
@@ -173,6 +198,7 @@ input:-webkit-autofill:focus {
     text-align: left;
     padding: 23px 0px 21px;
 }
+
 /* arrow button css */
 .contact-form form .input-box .ui-selectmenu-button span.ui-icon {
     position: absolute;
@@ -187,8 +213,9 @@ input:-webkit-autofill:focus {
     background-image: none;
     margin: 0;
 }
+
 .contact-form form .input-box .ui-selectmenu-button span.ui-icon::before {
-    color: #828282;
+    color: #000;
     content: "\f107";
     font-family: FontAwesome;
     font-size: 20px;
@@ -197,17 +224,23 @@ input:-webkit-autofill:focus {
     right: 18px;
     top: 16px;
 }
+
 .contact-info-area .contact-form textarea:-webkit-input-placeholder {
     color: #83888d !important;
 }
-.contact-info-area .contact-form textarea:-moz-placeholder { /* Firefox 18- */
+
+.contact-info-area .contact-form textarea:-moz-placeholder {
+    /* Firefox 18- */
     color: #83888d !important;
 }
-.contact-info-area .contact-form textarea:-moz-placeholder {  /* Firefox 19+ */
-    color: #83888d !important;  
+
+.contact-info-area .contact-form textarea:-moz-placeholder {
+    /* Firefox 19+ */
+    color: #83888d !important;
 }
+
 .contact-info-area .contact-form textarea:-ms-input-placeholder {
-    color: #83888d !important;  
+    color: #83888d !important;
 }
 
 
@@ -218,11 +251,12 @@ input:-webkit-autofill:focus {
 =============================================
 ***/
 /* Main field css css */
-.single-sidebar .archives-form-box{
+.single-sidebar .archives-form-box {
     position: relative;
     display: block;
     padding: 19px 0 40px;
 }
+
 .single-sidebar .archives-form-box form .input-box .ui-selectmenu-button {
     position: relative;
     display: block;
@@ -230,16 +264,18 @@ input:-webkit-autofill:focus {
     width: 100% !important;
     border-radius: 0px !important;
     border: 1px solid #ededed;
-    color: #828282;
+    color: #000;
     font-size: 15px;
     font-weight: 400;
     text-transform: capitalize;
     height: 50px !important;
     font-family: 'Rubik', sans-serif;
-}                                                                                                               
-.single-sidebar .archives-form-box form .input-box .ui-selectmenu-button:focus{
+}
+
+.single-sidebar .archives-form-box form .input-box .ui-selectmenu-button:focus {
     outline: none;
 }
+
 .single-sidebar .archives-form-box form .input-box .ui-selectmenu-button span.ui-selectmenu-text {
     display: block;
     line-height: 14px;
@@ -247,6 +283,7 @@ input:-webkit-autofill:focus {
     text-align: left;
     padding: 17px 15px 17px;
 }
+
 /* arrow button css */
 .single-sidebar .archives-form-box form .input-box .ui-selectmenu-button span.ui-icon {
     display: block;
@@ -260,6 +297,7 @@ input:-webkit-autofill:focus {
     bottom: 0;
     background-image: none;
 }
+
 .single-sidebar .archives-form-box form .input-box .ui-selectmenu-button span.ui-icon::before {
     color: #cccccc;
     content: "\f107";
@@ -296,54 +334,66 @@ input:-webkit-autofill:focus {
 
 
 
-#contact-form input[type="text"].error{
+#contact-form input[type="text"].error {
     border-color: red;
 }
-#contact-form input[type="email"].error{
+
+#contact-form input[type="email"].error {
     border-color: red;
 }
+
 #contact-form select.error {
     border-color: red;
 }
-#contact-form textarea.error{
+
+#contact-form textarea.error {
     border-color: red;
 }
+
 #contact-form label.error {
     display: none !important;
 }
 
 
 
-#add-comment-form input[type="text"].error{
-    border-color: red;    
+#add-comment-form input[type="text"].error {
+    border-color: red;
 }
-#add-comment-form input[type="email"].error{
-    border-color: red;    
+
+#add-comment-form input[type="email"].error {
+    border-color: red;
 }
+
 #add-comment-form select.error {
     border-color: red;
 }
-#add-comment-form textarea.error{
-    border-color: red;    
+
+#add-comment-form textarea.error {
+    border-color: red;
 }
+
 #add-comment-form label.error {
     display: none !important;
 }
 
 
 
-#appoinment-form input[type="text"].error{
-    border-color: red;    
+#appoinment-form input[type="text"].error {
+    border-color: red;
 }
-#appoinment-form input[type="email"].error{
-    border-color: red;    
+
+#appoinment-form input[type="email"].error {
+    border-color: red;
 }
+
 #appoinment-form select.error {
     border-color: red;
 }
-#appoinment-form textarea.error{
-    border-color: red;    
+
+#appoinment-form textarea.error {
+    border-color: red;
 }
+
 #appoinment-form label.error {
     display: none !important;
 }
@@ -356,11 +406,13 @@ input:-webkit-autofill:focus {
     display: none !important;
     z-index: 9999999999;
 }
+
 #html5box-html5-lightbox #html5-image {
     border: 10px solid #e9212e;
     padding: 0 !important;
 }
-#html5box-html5-lightbox #html5-text{
+
+#html5box-html5-lightbox #html5-text {
     padding-top: 15px;
     padding-bottom: 5px;
 }
@@ -376,7 +428,7 @@ input:-webkit-autofill:focus {
     position: absolute !important;
     left: 0px !important;
     top: 50% !important;
-    background: rgba(0, 0, 0,.20) !important;
+    background: rgba(0, 0, 0, .20) !important;
     width: 40px !important;
     height: 100px !important;
     display: block !important;
@@ -386,6 +438,7 @@ input:-webkit-autofill:focus {
     cursor: pointer !important;
     transition: all 500ms ease;
 }
+
 .tparrows:before {
     width: 40px !important;
     height: 100px !important;
@@ -395,11 +448,13 @@ input:-webkit-autofill:focus {
     line-height: 100px !important;
     text-align: center !important;
 }
-.tparrows:hover{
-    background: rgba(0, 0, 0, .50) !important;  
+
+.tparrows:hover {
+    background: rgba(0, 0, 0, .50) !important;
     color: #000;
 }
-.tp-rightarrow{
+
+.tp-rightarrow {
     left: 100% !important;
     margin-right: 0px;
 }
@@ -415,6 +470,7 @@ input:-webkit-autofill:focus {
     font-size: 35px !important;
     position: absolute !important;
 }
+
 .main-slider.style2 .tparrows:before {
     width: 40px !important;
     height: 60px !important;
@@ -426,13 +482,15 @@ input:-webkit-autofill:focus {
     content: "\f105" !important;
     font-family: "Flaticon" !important;
 }
+
 .main-slider.style2 .tp-rightarrow {
     left: 40% !important;
     margin-right: 0;
 }
-.main-slider.style2 .tp-rightarrow:before{
+
+.main-slider.style2 .tp-rightarrow:before {
     content: "\f106" !important;
-    font-family: "Flaticon" !important;    
+    font-family: "Flaticon" !important;
 }
 
 
@@ -456,6 +514,7 @@ input:-webkit-autofill:focus {
     text-align: center;
     font-family: 'Poppins', sans-serif;
 }
+
 .cart-bottom .calculate-shipping .ui-state-default {
     width: 100% !important;
 }
@@ -497,16 +556,18 @@ input:-webkit-autofill:focus {
     height: 40px !important;
     border-radius: 0px !important;
     border: 1px solid #ededed !important;
-    color: #828282 !important;
+    color: #000 !important;
     font-size: 14px !important;
     font-weight: 400;
     text-transform: capitalize;
     transition: all 500ms ease;
     font-family: 'Rubik', sans-serif;
 }
-#shop-area .showing-result-shorting .ui-selectmenu-button:focus{
+
+#shop-area .showing-result-shorting .ui-selectmenu-button:focus {
     outline: none;
 }
+
 #shop-area .showing-result-shorting .ui-selectmenu-button span.ui-selectmenu-text {
     display: block;
     line-height: 18px;
@@ -515,6 +576,7 @@ input:-webkit-autofill:focus {
     padding: 10px 15px 10px;
     transition: all 500ms ease;
 }
+
 /* arrow button css */
 #shop-area .showing-result-shorting .ui-selectmenu-button span.ui-icon {
     position: absolute;
@@ -529,6 +591,7 @@ input:-webkit-autofill:focus {
     background-image: none;
     margin: 0;
 }
+
 #shop-area .showing-result-shorting .ui-selectmenu-button span.ui-icon::before {
     color: #848484;
     content: "\f107";
@@ -562,9 +625,11 @@ input:-webkit-autofill:focus {
     line-height: 1.0em !important;
     border: 1px solid #2a2a2a !important;
 }
-.market-update-area .btcwdgt-chart .btcwdgt-header{
+
+.market-update-area .btcwdgt-chart .btcwdgt-header {
     display: none !important;
 }
-.market-update-area .btcwdgt-chart .btcwdgt-footer{
+
+.market-update-area .btcwdgt-chart .btcwdgt-footer {
     display: none !important;
 }
