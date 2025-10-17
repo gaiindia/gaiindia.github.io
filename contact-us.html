@@ -389,80 +389,135 @@
                     </style>
                     <div class="col-lg-8 offset-1">
                         <h2>Enquiry Here</h2>
-                        <form id="form1" name="myform" enctype="multipart/form-data" autocomplete="off" method="post"
-                            action="emailsend.php">
+                       
+                                            <form id="form1" name="myform" enctype="multipart/form-data"
+                                                autocomplete="off" method="post"
+                                                action="https://www.weblinkservices.net/career/inquiry/emailsend.php">
+                                                <div>
 
-                            <div class="row">
-                                <div class="col-md-6 col-sm-6 col-xs-12">
-                                    <input name="name" type="text" required placeholder="Enter Your Name" />
-                                </div>
-                                <div class="col-md-6 col-sm-6 col-xs-12">
-                                    <input name="cname" type="text" required placeholder="Enter Company Name" />
-                                </div>
-                            </div>
+                                                    <!-- This field is hidden from human users. Bots will fill it, allowing the PHP script to detect and block them. -->
+                                                    <div style="display: none;">
+                                                        <label for="honeypot_field">Do not fill this field</label>
+                                                        <input type="text" id="honeypot_field" name="honeypot_field"
+                                                            value="">
+                                                    </div>
 
-                            <div class="row">
-                                <div class="col-md-6 col-sm-6 col-xs-12">
-                                    <input name="phone" type="number" id="txtmobile mob_frm"
-                                        oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
-                                        maxlength="15" required placeholder="Enter Phone Number" />
-                                </div>
-                                <div class="col-md-6 col-sm-6 col-xs-12">
-                                    <input name="email" type="email" id="txtemail" required placeholder="Enter Email" />
-                                </div>
-                            </div>
+                                                    <!-- YOUR HIDDEN DEFAULT FIELDS add must -->
+                                                    <!-- These fields are your existing hidden columns. They are now integrated with the honeypot. -->
+                                                    <div class="row" style="display: none;">
+                                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                                            <input name="sales_person" type="text"
+                                                                value="Harshal Sir" />
+                                                            <!-- YOUR HIDDEN DEFAULT FIELDS add must -->
+                                                        </div>
+                                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                                            <input name="company_name" type="text"
+                                                                value="GAI India" />
+                                                            <!-- YOUR HIDDEN DEFAULT IELDS add must -->
+                                                        </div>
+                                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                                            <input name="company_domain" type="text"
+                                                                value="gaiindia.com.in" />
+                                                            <!-- YOUR HIDDEN DEFAULT FIELDS add must -->
+                                                        </div>
+                                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                                            <input name="company_email" type="text"
+                                                                value="sales@gaiindia.com.in" />
+                                                            <!-- YOUR HIDDEN DEFAULT FIELDS add must -->
 
+                                                        </div>
+                                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                                            <input name="sales_person_email" type="hidden"
+                                                                value="harshal@weblinkservices.net" />
+                                                        </div>
 
-                            <div class="row">
-                                <div class="col-md-6 col-sm-6 col-xs-12">
-                                    <input name="pname" type="text" required placeholder="Enter Product Name" />
-                                </div>
-                                <div class="col-md-6 col-sm-6 col-xs-12">
-                                    <input name="city" type="text" required placeholder="Enter City Name" />
-                                </div>
-                            </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                                            <input name="name" type="text" required=""
+                                                                placeholder="Enter Your Name">
+                                                        </div>
+                                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                                            <input name="cname" type="text" required=""
+                                                                placeholder="Enter Company Name">
+                                                        </div>
+                                                    </div>
 
+                                                    <div class="row">
+                                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                                            <input name="mobile_no" type="number" id="txtmobile mob_frm"
+                                                                oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                                                                maxlength="15" required=""
+                                                                placeholder="Enter Phone Number">
+                                                        </div>
+                                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                                            <input name="email_id" type="email" id="txtemail"
+                                                                required="" placeholder="Enter Email">
+                                                        </div>
+                                                    </div>
 
+                                                    <div class="row">
+                                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                                            <input name="cproduct" type="text" required=""
+                                                                placeholder="Enter Product Name">
+                                                        </div>
+                                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                                            <input name="city" type="text" required=""
+                                                                placeholder="Enter City Name">
+                                                        </div>
+                                                    </div>
+                                                </div>
 
-                            <div class="row">
-                                <div class="col-md-12 col-sm-6 col-xs-12">
-                                    <input type="checkbox" name="contact_me_by_fax_only" value="1"
-                                        style="display:none !important" tabindex="-1" autocomplete="off">
-                                </div>
-                            </div>
+                                                <div class="row">
+                                                    <div class="col-md-12 col-sm-6 col-xs-12">
+                                                        <input type="checkbox" name="contact_me_by_fax_only" value="1"
+                                                            style="display: none !important" tabindex="-1"
+                                                            autocomplete="off">
+                                                    </div>
+                                                </div>
 
-                            <div class="row">
-                                <div class="col-md-12 col-sm-6 col-xs-12">
-                                    <input name="msg" type="text" required placeholder="Drop Your Message Here"
-                                        style="height: 100px;width: 100%" />
-                                </div>
-                            </div>
+                                                <div class="row">
+                                                    <div class="col-md-12 col-sm-6 col-xs-12">
+                                                        <input name="message" type="text" required=""
+                                                            placeholder="Drop Your Message Here"
+                                                            style="height: 80px; width: 100%">
+                                                    </div>
+                                                </div>
 
-                            <div class="row">
-                                <div class="col-md-3 col-sm-6 col-xs-12">
-                                    <h5 class="textheading">Upload File</h5>
-                                </div>
-                                <div class="col-md-9 col-sm-9 col-xs-12">
-                                    <input type="file" name="file" id="file">
-                                </div>
-                            </div>
-                            <br>
-                            <div class="row">
-                                <div class="col-md-9 col-sm-9 col-xs-12">
-                                    <label class="submit__control">
-                                        <h4 class="captcha-heading">Just to prove you are a human?</h4>
-                                        <div class="submit__generated"></div>
-                                        <i class="fa fa-refresh"></i>
-                                        <span class="submit__error hide">Incorrect value</span>
-                                    </label>
-                                </div>
-                                <div class="col-md-3 col-sm-6 col-xs-12">
-                                    <input class="submit overlay" type="submit" name="submit" id="submit" class="button"
-                                        value="Submit" />
-                                    <div class="submit__overlay"></div>
-                                </div>
-                            </div>
-                        </form>
+                                                <!-- <div class="row">
+                                                    <div class="col-md-3 col-sm-6 col-xs-12">
+                                                        <h5 class="textheading">Upload File</h5>
+                                                    </div>
+                                                    <div class="col-md-9 col-sm-9 col-xs-12">
+                                                        <input type="file" name="file" id="file">
+                                                    </div>
+                                                </div> -->
+                                                <br>
+                                                <div class="row">
+                                                    <div class="col-md-9 col-sm-9 col-xs-12">
+                                                        <label class="submit__control">
+                                                            <h4 class="captcha-heading">
+                                                                Just to prove you are a human?
+                                                            </h4>
+                                                            <div class="submit__generated"><span>8</span> +
+                                                                <span>8</span> =
+                                                                <input class="submit__input" type="text" maxlength="2"
+                                                                    size="2" required="">
+                                                            </div>
+                                                            <i class="fa fa-refresh"></i>
+                                                            <span class="submit__error hide">Incorrect value</span>
+                                                            <span class="submit__error--empty hide">Required field
+                                                                cannot be
+                                                                left
+                                                                blank</span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="col-md-3 col-sm-6 col-xs-12">
+                                                        <input class="submit" type="submit" name="submit" id="submit"
+                                                            value="Submit">
+                                                    </div>
+                                                </div>
+                                            </form>
 
                         <hr>
 
